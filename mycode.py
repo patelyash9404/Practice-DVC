@@ -11,6 +11,9 @@ df = pd.DataFrame(data)
 # # Adding new row to df for V2
 new_row_loc = {'name': 'GF1', 'age': 20, 'city': 'City1'}
 df.loc[len(df.index)] = new_row_loc
+
+new_row_loc = {'name': 'GF2', 'age': 20, 'city': 'City1'}
+df.loc[len(df.index)] = new_row_loc
 # Absolute path of this file
 CURRENT_FILE_DIR = os.path.dirname(os.path.abspath(__file__))
 
